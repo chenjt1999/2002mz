@@ -1,0 +1,289 @@
+.login{
+    // header
+    .header{
+        width: 1343px;
+        height: 68px;
+        .header-wrap{
+            width: 1200px;
+            height: 68px;
+            margin: auto;
+        }
+    }
+    // banner
+    .banner{
+        width: 1343px;
+        min-height: 400px;
+        max-height: 1080px;
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .banner-box{
+            position: absolute;
+            right:90px;
+            top: 35px;
+            width: 368px;
+            height: 450px;
+            background-color: #f5f5f5;
+            .banner-wrap{
+                width: 300px;
+                min-height: 400px;
+                margin:60px auto;
+                h3{
+                    font-size: 18px;
+                    text-align: center;
+                    color: #00a7ea;
+                    cursor: pointer;
+                }
+                h3:hover{
+                    color: #387aff;
+                }
+                .tib-box{
+                    margin-top: 50px;
+                    padding: 0px 10px;
+                    width: auto;
+                    font-size: 14px;
+                    display: block;
+                    height: 46px;
+                    line-height: 46px;
+                    border-radius: 2px;
+                    border: 1px solid #dadada;
+                    color: #474747;
+                    margin-bottom: 36px;
+                    background-color: white;
+                    .cycode{
+                        width: 276px;
+                        height: 46px;
+                        font-size: 14px;
+                        line-height: 46px;
+                        color: #474747;
+                        float: left;
+                        span{
+                            display: inline-block;
+                            width: 60px;
+                            border-right: 1px solid #DDD;
+                            cursor: pointer;
+                            input{
+                                width: 60%;
+                                color: grey;
+                                text-align: center;
+                                cursor: pointer;
+                                font-size: 14px;
+                                margin-bottom: 0 !important;
+                            }
+                        }
+                        input{
+                            width: 74%;
+                            text-indent: 8px;
+                            height: 22px;
+                            border: 0;
+                        }
+                    }                  
+                }
+                .cycode-2{
+                    float: left;
+                    width: 300px;
+                    height: 46px;
+                    color: #474747;
+                    border: 1px solid #dadada;
+                    background-color: white;
+                    span{
+                        font-size: 14px;
+                        line-height: 46px;
+                        text-align: center;
+                        display: inline-block;
+                        width: 60px;
+                        border-right: 1px solid #DDD;
+                        cursor: pointer;
+                    }
+                    input{
+                        width: 74%;
+                        text-indent: 8px;
+                        height: 22px;
+                        border: 0;
+                    }
+                }
+                .flyme{
+                    margin-top: 100px;
+                    font-size: 12px;
+                    height: 20px;
+                    line-height: 20px;
+                    border: 0;
+                    input{
+                        line-height: 22px;
+                        padding: 12px 0;
+                        height: 22px;
+                        margin: 0px 0px 30px 5px;
+                        float: left;
+                        cursor: pointer;
+                        width: 18px;
+                        border: solid 1px #dadada;
+                    }
+                    i{
+                        cursor: pointer;
+                        font-size: 12px;
+                        line-height: 20px;
+                        color: #515151;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    a{
+                        color: #00a7ea;
+                    }
+                    a:hover{
+                        color: #387aff;
+                    }
+                }
+                .btn{
+                    position: relative;
+                    left: 0%;
+                    top: 60px;
+                    display: block;
+                    height: 46px;
+                    width: auto;
+                    font-size: 14px;
+                    line-height: 46px;
+                    cursor: pointer;
+                    color: #fff;
+                    background-color: #32a5e7;
+                    text-align: center;
+                }
+                .btn:hover{
+                    background-color: #387aff;
+                }
+                .zhuce{
+                    color: #387aff;
+                    position: relative;
+                    left: 0%;
+                    bottom: -70px;
+                    font-size: 14px;
+                }
+                .zhuce:hover{
+                    color: #32A5E7;
+                }
+            }
+        }
+    }
+    // footer
+    .footer{
+        bottom: 0;
+        height: 130px;
+        border-top: solid 1px #E5E6E7;
+        color: black;
+        width: 1343px;
+        border-color: transparent !important;
+        .footer-wrap{
+            width: 1000px;
+            height: 61px;
+            margin: auto;
+            margin: 24px auto 30px;
+            .footer-layer1{
+                width: 1000px;
+                height: 50px;
+                .footer-left{
+                    position: relative;
+                    float: left;
+                    ul{
+                        height: 18px;
+                        li{
+                            padding-right: 5px;
+                            float: left;
+                            height: 18px;
+                            margin-right: 0px;
+                            line-height: 50px;
+                            a{
+                                color: black;
+                                font-size: 14px;
+                                line-height: 50px;
+                            }
+                            .footer-box{
+                                display: none;
+                                position: absolute;
+                                right: 0px;
+                                bottom: 1px;
+                                .box01{
+                                    width: 70px;
+                                    height: 90px;
+                                    background-color:#fff;    
+                                    text-align: center;
+                                    .li_01{
+                                        width: 70px;
+                                        height: 45px;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                        .jianti:hover .footer-box{
+                            display: block;
+                        }
+                    }
+                }
+                .footer-service{
+                    float: left;
+                    margin-left: 36px;
+                    span{
+                        margin-right: 10px;
+                        line-height: 50px;
+                        color: black;
+                        font-size: 14px;
+                    }
+                    a{
+                        height: 20px;
+                        line-height: 18px;
+                        width: 64px;
+                        color: white;
+                        background-color: #32a5e7;
+                        border-radius: 5px;
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                }
+                .sub{
+                    width: 171px;
+                    height: 30px;
+                    float: right;
+                    position: relative;
+                    a{
+                        color:black;
+                        line-height: 27px;
+                        font-size: 12px;
+                        i{
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            position: relative;
+                            top: 4px;
+                            margin-right: 20px;
+                            font-size: 30px;
+                        }
+                        img{
+                            position: absolute;
+                            bottom: 40px;
+                            left: -20px;
+                            width: 180px;
+                            display: none;
+                        }
+                    }
+                    a:hover img{
+                        display: block;
+                    }
+                }
+            }
+            .footer-cer{
+                font-size: 12px;
+                padding-top: 8px;
+                a{
+                    line-height: 27px;
+                    font-size: 12px;
+                    margin: 0 3px;
+                    color: #999;
+                }
+                a:hover{
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}
